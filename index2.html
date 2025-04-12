@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Oluwashemilore 🎉</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #fff5f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      text-align: center;
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      color: #ff69b4;
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .slideshow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      animation: fadeZoom 2s ease-in-out;
+    }
+    .slideshow img {
+      width: 250px;
+      height: auto;
+      border-radius: 20px;
+      transition: transform 0.5s, opacity 0.5s;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .slideshow img:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    @keyframes fadeZoom {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    .letter, .secret, .coupon, .crossword {
+      margin-top: 2rem;
+      background: #ffe4ec;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    /* Styling for the coupon cards */
+.coupon-codes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ff8c00;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff8c00;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.coupon-codes h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff8c00;
+}
+
+    }
+    audio {
+      margin-top: 1rem;
+    }
+    .secret input {
+      margin-top: 1rem;
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    .secret-content {
+      display: none;
+      margin-top: 1rem;
+      text-align: left;
+    }
+  </style>
+  <script>
+    function checkPassword() {
+      const input = document.getElementById("secretPassword").value;
+      if (input.toLowerCase() === "unrequited love") {
+        document.getElementById("secretLetter").style.display = "block";
+      } else {
+        alert("Incorrect password 🙈");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Happy Birthday, Oluwashemilore! 🎉</h1>
+  <div class="section slideshow">
+    <img src="image1.jpg" alt="memories" />
+    <img src="image2.jpg" alt="memories" />
+    <img src="image3.jpg" alt="memories" />
+    <!-- More images to be added dynamically or as needed -->
+  </div>
+
+  <div class="section letter">
+    <h2>Main Letter</h2>
+    <p>Dear Oluwashemilore,</p>
+    <p>As I sit down to write this, I'm filled with so much love and gratitude for you. Every moment we spend together is a gift, and I'm cherishing the memories we've made.</p>
+    <p>You bring so much joy and light into my life, and I'm grateful for your love, support, and kindness. Your presence makes me feel seen, heard, and understood in ways I never thought possible.</p>
+    <p>I'm thinking of you always and looking forward to whenever we meet or cross paths. Until then, know that you're on my mind and in my heart.</p>
+    <p>With all my love,<br>Sport car 💖</p>
+  </div>
+
+  <section class="coupon-codes">
+    <h2>Your Birthday Coupons</h2>
+    <div class="card">
+        <h3>Coupon 1:</h3>
+        <p>A date paid by me!</p>
+    </div>
+    <div class="card">
+        <h3>Coupon 2:</h3>
+        <p>A wish granted!</p>
+    </div>
+    <div class="card">
+        <h3>Coupon 3:</h3>
+        <p>A video call!</p>
+    </div>
+    <div class="card">
+        <h3>Coupon 4:</h3>
+        <p>Any gift of my choice!</p>
+    </div>
+    <div class="card">
+        <h3>Coupon 5:</h3>
+        <p>"I don't want to talk to you again"!</p>
+    </div>
+</section>
+
+  </div>
+
+  <div class="section secret">
+    <h2>Secret Letter 🔐</h2>
+    <input id="secretPassword" type="password" placeholder="Enter password to unlock" />
+    <button onclick="checkPassword()">Unlock</button>
+    <div id="secretLetter" class="secret-content">
+      <p>Hiii<br>This letter might find you or not...</p>
+      <p>I know you are wondering what all these is all about but be calm okay, this is just me trying to express how I feel about you.</p> I may have never told you before, but I bless the day that I met you. I never knew I could like or love someone this much and I’m happy it’s you I get to love like this.
+I can vividly remember the day we met, I was wearing a purple singlet and I was kinda busy with my assignment but then when you entered my room, your perfume was the first thing that attracted me to you then your lips before I even saw your face. I would not say it was love at first sight cos it was actually not and I was hell bent on not falling for you in anyways cos I knew deep down that it was going to end in tears. But despite my reservations about falling, I never knew me falling for you was inevitable and I kept falling all over and over again for you.
+It was a gradual process for me. I never knew I could like someone this much. I love the way you say my name, the way you look at me as if I’m the only one you can see, the way you care about my health even when I thought you never cared.
+The day you came when I wanted to end it all and wrote you a message, I was not expecting to show up and I didn’t even want you to show up cos we were not speaking at the time. But you came and I’m sure you were wondering why you were part of the people I wrote a message too, the reason was because even after knowing you for a short period of time, you became my favorite person and I kept falling for you.
+You want to the funniest part?? It’s the fact that when I think I can’t fall for you again, I fall more in love with you than before. All my thoughts are centered around you and I just want to know how you are doing and if I’m also in your thoughts or mind.
+But then it’s an unrequited love cos only me seems to like and love you and it’s fine, Atleast I get to love you in my own way and mind.
+I don’t know what it is about you that makes me feel this way but I’m happy I got to meet you and know you cos you make my days brighter and more good with just your presence, or the way I glow up anytime your messages come in or the way I can’t stop smiling anytime I hear your name or say your name.
+<p>I love you oluwashemilore </p>
+<p>Saranghae yo❤ </p>
+    </div>
+  </div>
+
+
+
+  <div class="section">
+    <h2>Birthday Tune 🎶</h2>
+    <audio controls autoplay loop>
+      <source src="Nonso-Amadi-Tonight-(TrendyBeatz.com).mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
